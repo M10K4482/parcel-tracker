@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>i'm a parcel tracker try me</h1>
+      <h1>i'm a parcel tracker</h1>
       {!selectedParcel ? (
         <div className="parcel-grid">
           {parcels.map((parcel) => (
